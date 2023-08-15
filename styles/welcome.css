@@ -1,0 +1,141 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: montserrat;
+}
+
+/*--- Section 1 - Background cover ---*/
+.banner{
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/bg3.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.navbar{
+	width:100%;
+	margin:auto;
+	padding:35px 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.logo{
+	width:200px;
+	cursor:pointer;
+	margin-left: 50px;
+}
+
+.navbar ul li{
+	list-style: none;
+	display:inline-block;
+	margin:0 20px;
+	position:relative;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+}
+
+.navbar ul li::after{
+	content:'';
+	height:3px;
+	width:0;
+	background:#f44336;
+	position:absolute;
+	left:0;
+	bottom:-10px;
+	transition:0.5s;
+}
+
+.navbar ul li:hover::after{
+	width:100%;
+}
+
+/*--- Section 2 - Form ---*/
+.text{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text h1{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+
+.button {
+  border-radius: 12px;                             
+  background-color: #009688;
+  border: 2px solid #009688;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-color: #fff;
+  padding: 12px 34px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 30px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+/*--- Section 3 - Footer ---*/
+.privacy{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 6px;
+}
+
+.create{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.link{
+	text-decoration: none;
+}
+

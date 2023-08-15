@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+
+	<title>Create Account page</title>
+	<link rel="stylesheet" href="styles/createacc.css">
+</head>	
+<body>
+	<div class="SignUpForm">
+		<h1>Create Your Account</h1>
+		<h2>Create an account to get our service as you wish</h2>
+		<form method="post">
+			<p>User Name</p>
+			<input type="text" name="user" placeholder="Enter your User Name" required>
+			
+			<p>E-mail/Mobile</p>
+			<input type="text" name="mail" placeholder="Enter your email/mobile" required>
+			
+			<p>Password</p>
+			<input type="password" name="password" placeholder="Enter your Password" required>
+			
+			<p>Confirm Password</p>
+			<input type="password" name="password" placeholder="Re-enter your Password" required>
+			
+			
+			<button type="submit">Create Account</button>
+			
+		
+		
+		</form>
+	
+	
+	
+	
+	
+	
+	</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?php
+
+   $servername="localhost";
+   $username="root";
+   $password="";
+   $database="laboratory information";
+   
+   $conn=new mysqli($servername, $username, $password, $database);
+
+   if($conn->connect_error){
+	   die("Connection Failed".$conn->connect_error);
+   }
+   
+   $id = $_POST['idnum'];
+   $name = $_POST['name'];
+   $nic = $_POST['nic'];
+   $test = $_POST['test'];
+   $amount = $_POST['amount'];
+   $type = $_POST['payType'];
+   
+   $query = "INSERT INTO `payment`(`p_ID`,`p_name`,`p_NIC`,`test`,`amount`,`P_type`)
+   VALUES ('$id','$name','$nic','$test','$amount','$type')";
+
+   
+   
+ ?>

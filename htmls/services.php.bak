@@ -1,0 +1,155 @@
+<!D0CTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="services.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+	
+	<body>
+		<!--- Section 1 - Background cover --->
+		<div class="navbar">
+		<a href="first.php"><img src="Images/l1.PNG" class="logo">
+			<ul>
+				<li><a href="Homee.php">HOME</a></li>
+				<li><a href="#">REGISTER</a></li>
+				<li><a href="view_n.php">LAB REPORTS</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">PAYMENT PORTAL</a></li>
+				<li><a href="#">FEEDBACK</a></li>
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="#">ABOUT US</a></li>
+			</ul>
+		</div>
+
+		<div class="txt">
+			<h1>Services</h1>
+			
+			<div style="text-align:center">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S1.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>PCR Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S2.png" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Rapid Antigen Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S3.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Creatinine Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S4.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>CRP Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S5.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Electrolyte Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S6.png" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>ESR Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S7.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>HBA1c Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S8.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>FBS Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S9.webp" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Full Blood Count Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S10.webp" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Lipid Profile Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S11.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Microalbumin Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S12.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>TSH Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S13.png" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>BUN Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <img src="Images/S14.jpg" style="width:105%;" class="img">
+		  <div class="content">
+			<h1>Dengue Test</h1>
+			<p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.<br>Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+		  </div>
+		</div>
+		
+		
+	<!--- Section 4 - Footer --->
+		<section class="footer">
+			<p class="privacy">CEYLON MED LABORATORY | PRIVACY POLICY</p>
+			<P class="create">Created by <b><a href="https://drive.google.com/file/d/1K3JrPk4lROj-j5cgrUjfKogOwAXlSMAN/view?usp=sharing" class="link">SLIIT KGL_01</a><b></p>
+		</section>
+	</body>
+</html>

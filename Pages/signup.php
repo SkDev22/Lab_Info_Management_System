@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+<head>
+
+	<title>user login page</title>
+	<link rel="stylesheet" href="styles/signupp.css">
+	<meta name="loginpage" content="width=device-width, initial-scale=1">
+</head>	
+
+<body>
+	<!--- Section 1 - Background cover --->
+		<div class="banner">
+			<div class="navbar">
+			<a href="first.php"><img src="images/logo2.PNG" class="logo">
+				<ul>
+					<li><a href="Home.php">HOME</a></li>
+					<li><a href="#">REGISTER</a></li>
+					<li><a href="#">LAB REPORTS</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">PAYMENT PORTAL</a></li>
+					<li><a href="#">FEEDBACK</a></li>
+					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#">ABOUT US</a></li>
+				</ul>
+			</div>		
+		</div>
+	
+	<!--- Section 2 - Form --->
+	<div class="text">
+		<h1>Create Your Account</h1>
+		
+		<div class="view-form">
+			<form id="view-form" method="post" action="signup-check.php">
+				
+					<?php if (isset($_GET['error'])) { ?>
+     		<p class="error"><?php echo $_GET['error']; ?></p>
+     	<?php } ?>
+
+          <?php if (isset($_GET['success'])) { ?>
+               <p class="success"><?php echo $_GET['success']; ?></p>
+          <?php } ?>
+
+				
+				<?php if (isset($_GET['name'])) { ?>
+               <input type="text" 
+                      name="name" 
+                      placeholder="Name"
+					  class="form-c"
+                      value="<?php echo $_GET['name']; ?>"><br>
+          <?php }else{ ?>
+               <input type="text" 
+                      name="name" 
+					  class="form-c"
+                      placeholder="Name"><br>
+          <?php }?>
+				
+				
+				
+				
+				
+				
+				
+				
+				<?php if (isset($_GET['uname'])) { ?>
+               <input type="text" 
+                      name="uname" 
+                      placeholder="User Name"
+					  class="form-c"
+                      value="<?php echo $_GET['uname']; ?>"><br>
+				<?php }else{ ?>
+               <input type="text" 
+                      name="uname" 
+					  class="form-c"
+                      placeholder="User Name"><br>
+				<?php }?>
+				<br>
+				<input name="password" type="password" class="form-c" placeholder="Password" required>
+				<br>
+				<input name="re_password" type="password" class="form-c" placeholder="Confirm Password" required>
+				<br>
+				
+				
+				
+				
+				
+				
+				<button type="submit">Create Account</button>
+				
+				<div class="fp_link">
+				<a href="indexx.php" style="color:white">Already have an account?</a>
+				</div>
+				
+				
+			</form>
+		</div>
+		
+	</div>
+	
+	<!--- Section 3 - Footer --->
+	<div class="footer">
+		<p class="privacy">CEYLON MED LABORATORY | PRIVACY POLICY</p>
+		<P class="create">Created by <b><a href="" class="link">SLIIT KGL_01</a><b></p>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+function moneyAmount(){
+
+	var mAmount = document.getElementById("moAmount").value;
+	localStorage.setItem("textvalue",mAmount);
+	return false;
+	
+	
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+<head>
+
+	<title>user login page</title>
+	<link rel="stylesheet" href="styles/signupp.css">
+	<meta name="loginpage" content="width=device-width, initial-scale=1">
+</head>	
+
+<body>
+	<!--- Section 1 - Background cover --->
+		<div class="banner">
+			<div class="navbar">
+			<a href="first.html"><img src="images/logo2.PNG" class="logo">
+				<ul>
+					<li><a href="Home.html">HOME</a></li>
+					<li><a href="#">REGISTER</a></li>
+					<li><a href="view_n.html">LAB REPORTS</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">PAYMENT PORTAL</a></li>
+					<li><a href="#">FEEDBACK</a></li>
+					<li><a href="#">CONTACT US</a></li>
+					<li><a href="#">ABOUT US</a></li>
+				</ul>
+			</div>		
+		</div>
+	
+	<!--- Section 2 - Form --->
+	<div class="text">
+		<h1>Create Your Account</h1>
+		
+		<div class="view-form">
+			<form id="view-form" method="post" action="">
+				<input name="User Name" type="text" class="form-c" placeholder="User Name" required>
+				<br>
+				<input name="mail" type="text" class="form-c" placeholder="E-mail/Mobile" required>
+				<br>
+				<input name="password" type="password" class="form-c" placeholder="Password" required>
+				<br>
+				<input name="password" type="password" class="form-c" placeholder="Re-Enter Password" required>
+				<br>
+				
+				
+				
+				
+				<button type="submit">Create Account</button>
+				
+				
+				
+			</form>
+		</div>
+		
+	</div>
+	
+	<!--- Section 3 - Footer --->
+	<div class="footer">
+		<p class="privacy">CEYLON MED LABORATORY | PRIVACY POLICY</p>
+		<P class="create">Created by <b><a href="" class="link">SLIIT KGL_01</a><b></p>
+	</div>
+
+
+</body>
+</html>
